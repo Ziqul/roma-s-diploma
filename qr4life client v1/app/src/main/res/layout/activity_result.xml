@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/nameLable"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Name"
+            />
+
+
+        <TextView
+            android:id="@+id/nameField"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="Maxim"
+            android:textAlignment="viewStart" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/surnameLable"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Surame" />
+
+
+        <TextView
+            android:id="@+id/surnameField"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="viewStart"
+            android:text="Sorokin" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/birthdateLable"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Birthday" />
+
+
+        <TextView
+            android:id="@+id/birthdateField"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="viewStart"
+            android:text="05.10.1991" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/bloodLable"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Blood" />
+
+
+        <TextView
+            android:id="@+id/bloodField"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="viewStart"
+            android:text="AB−" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/phoneLable"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Phone" />
+
+
+        <TextView
+            android:id="@+id/phoneField"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="viewStart"
+            android:text="+380975534513" />
+    </TableRow>
+
+</TableLayout>
